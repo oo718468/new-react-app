@@ -1,0 +1,12 @@
+.input{
+    width: 35em;
+    padding: 4px;
+    position: relative;
+    top: 1px;
+    border-color: #008dff;
+}
+
+.button{
+    width: 5rem;
+    background: #008dff;
+}

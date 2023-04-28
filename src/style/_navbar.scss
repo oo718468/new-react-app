@@ -1,0 +1,140 @@
+.navbar_logo1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-bottom: 1px solid;
+    display: none;
+    @media (max-width:660px) {
+        display: block;
+        display: flex;
+    }
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+
+    @media (max-width:800px) {
+       
+    
+    }
+
+
+    .navbar_input{
+        height: 38px;
+        width: 762px;
+        display: flex;
+        align-items: center; 
+        @media  (max-width:1100px) {
+            width: 600px;
+        }       
+    }
+
+    .navbar_input input{
+        width: 762px;
+        outline: none;
+        border: none;
+        color: #cccc;
+        @media  (max-width:1100px) {
+            width: 500px;
+        }    
+        @media  (max-width:500px) {
+            width: 200px;
+        } 
+    }
+
+
+    .shop_cart{
+        display: flex;
+        gap: 5px;
+        cursor: pointer;
+        color: #666666;
+        @media (max-width:900px){
+            position: absolute;
+            right: 5rem;
+        }
+    }
+    .navbar_logo img{
+        @media (max-width:660px){
+            display: none;
+        }
+    }
+
+   
+
+    .exit_cart{
+        display: flex;
+        gap: 5px;
+        cursor: pointer;
+        color: #666666;
+        @media (max-width:900px){
+            position: absolute;
+            right: 0px;
+        }
+    }
+    
+}
+
+
+.navbar_menu{
+   margin: 0 auto;
+    height: 45px;
+    align-items: center;
+    display: flex;
+    background-color: white;
+
+    .language_item{
+        display: flex;
+        gap: 2rem;
+        width: 228px;
+        height: 41px;
+        align-items: center;
+        left:15px;
+    }
+    .navbar_right{
+        display: flex;
+        gap: 43px;
+        font-size: 11px;
+        width: 960px;
+        height: 44px;
+        align-items: center;
+        h1{
+            display: none;
+        }
+        @media (max-width:1200px) {
+            gap: 25px;
+            h3{
+                display: block;
+            }
+        }
+        @media (max-width:1100px) {
+            h3{
+                display: none;
+            }
+            h1{
+                display: block;
+                position: absolute;
+                right: 5px;
+            }
+        }
+    }
+    .navbar_right h3{
+        padding: 0 7px;
+        font-weight: 600;
+    }
+   
+   
+}
+.navbar_bottom{
+    border-top: 1px solid rgba(204, 204, 204, 0.8) ;
+    box-shadow: 0px 1px 0px 0px rgba(204, 204, 204, 0.8) ;
+}
+
+
+
+
+
+
